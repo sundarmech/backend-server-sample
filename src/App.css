@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pop{
+  padding: 20px;
+  background-color: crimson;
+  color: white;
+  font-size: 30px;
+  font-style:italic;
+}
+.side-nav{
+  width: 10%;
+  height: 730px;
+  background-color:lightblue;
+  float: left;
+}
+ul{
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 30px;
+}
+ul li{
+  margin-top: 20px;
+  width: 100%;
 }
